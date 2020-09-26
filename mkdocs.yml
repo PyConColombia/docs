@@ -1,0 +1,28 @@
+site_name: PyCon Colombia Docs
+
+theme:
+  name: material
+  palette:
+    primary: blue
+  language: es
+  features:
+    - search.highlight
+    - navigation.expand
+    - instant
+  plugins:
+    - search
+markdown_extensions:
+  - toc:
+      permalink: true
+google_analytics:
+  - UA-105321720-6
+  - auto
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/pyconcolombia
+      name: PyCon Colombia on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/pyconcolombia
+      name: PyCon Colombia on GitHub
+repo_url: https://github.com/pyconcolombia/website-template
